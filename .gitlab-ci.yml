@@ -1,0 +1,27 @@
+           
+
+image: alpine:latest
+
+
+stages:
+  - start
+
+start:
+  stage: start
+  
+  #variables:
+  #  GIT_STRATEGY: none
+  
+  script:
+    - echo test
+    #- mkdir -p tmp
+    #- echo `date +%Y-%m-%d` > tmp/date.tmp
+    #- echo `date +%H-%M-%S` > tmp/time.tmp
+  
+  #artifacts:
+  #  paths:
+  #    - tmp/
+  #  expire_in: 1d
+
+  #except:
+  #  - master
