@@ -14,6 +14,7 @@ start:
   
   script:
     - echo test
+    - git branch
     #- mkdir -p tmp
     #- echo `date +%Y-%m-%d` > tmp/date.tmp
     #- echo `date +%H-%M-%S` > tmp/time.tmp
