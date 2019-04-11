@@ -16,6 +16,15 @@ start:
     - echo test
     - apk add git
     - git branch
+    - git remote -v
+    #- git config --global user.name "${GIT_USERNAME}"
+    #- git config --global user.email "${GIT_EMAIL}"
+    #- git clone ${GIT_HTT_REPO_LOCAL}
+    
+    #sostituire con variabile gilab
+    #- cd test-export
+    #- git 
+  
     #- mkdir -p tmp
     #- echo `date +%Y-%m-%d` > tmp/date.tmp
     #- echo `date +%H-%M-%S` > tmp/time.tmp
