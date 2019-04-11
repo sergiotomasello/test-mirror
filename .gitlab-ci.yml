@@ -1,6 +1,6 @@
            
 
-image: alpine:latest
+image: alpine/git:latest
 
 
 stages:
