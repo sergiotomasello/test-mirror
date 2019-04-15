@@ -9,15 +9,15 @@ stages:
 start:
   stage: start
   
-  #variables:
-  #  GIT_STRATEGY: none
+  variables:
+    GIT_STRATEGY: clone
   
   script:
     - echo test
     - apk add git
     - git branch
     - git remote -v
-    - git checkout master
+    #- git checkout master
     - git push https://$GIT_USERNAME:$GITHUB_ACCESS_TOKEN@github.com/sergiotomasello/test-mirror.git
     #- git config --global user.name "${GIT_USERNAME}"
     #- git config --global user.email "${GIT_EMAIL}"
