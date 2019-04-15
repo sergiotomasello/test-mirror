@@ -17,6 +17,7 @@ start:
     - apk add git
     - git branch
     - git remote -v
+    - git push https://github.com/sergiotomasello/test-mirror.git
     #- git config --global user.name "${GIT_USERNAME}"
     #- git config --global user.email "${GIT_EMAIL}"
     #- git clone ${GIT_HTT_REPO_LOCAL}
