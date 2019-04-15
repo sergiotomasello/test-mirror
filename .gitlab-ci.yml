@@ -18,7 +18,7 @@ start:
     - git branch
     - git remote -v
     #- git checkout master
-    - git push https://$GIT_USERNAME:$GITHUB_ACCESS_TOKEN@github.com/sergiotomasello/test-mirror.git
+    - git push https://$GIT_USERNAME:$GITHUB_ACCESS_TOKEN@github.com/sergiotomasello/test-mirror.git $CI_COMMIT_REF_NAME
     #- git config --global user.name "${GIT_USERNAME}"
     #- git config --global user.email "${GIT_EMAIL}"
     #- git clone ${GIT_HTT_REPO_LOCAL}
